@@ -4,11 +4,14 @@
  language: c
 
  env:
- - Folder = "f1"
- - Folder = "f2"
+ - i = 1
+ - i = 2
 
 
- script: cd $Folder&&pwd
+ script: printf("%d\n",$i);
+
+
+
 
 
 
