@@ -1,13 +1,12 @@
  os:
  - linux
 
- env:
-  - Command = ls
-  - Command = pwd
-
-
- script: "$Command"
- 
-
  language: c
+
+ env:
+  - ls
+  - pwd
+
+
+ script: "$env"
 
