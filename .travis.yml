@@ -3,10 +3,10 @@
 
  language: c
 
- env:
-  - ls
-  - pwd
+ #env:
+ # - ls
+ # - pwd
 
 
- script: "$env"
+ script: ls
 
