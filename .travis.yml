@@ -4,11 +4,11 @@
  language: c
 
  env:
- - i = 1
- - i = 2
+ - i ="1"
+ - i ="2"
 
 
- script: printf("%d\n",$i);
+ script: printf "%s\n" $i
 
 
 
