@@ -8,7 +8,7 @@
  - i ="2"
 
 
- script: printf "%s\n" $i
+ script: printf "%s\n" i
 
 
 
