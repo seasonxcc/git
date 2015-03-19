@@ -9,7 +9,7 @@
  - Test_Command = "pwd"
 
 
- script: $Test_Command
+ script: Test_Command
  
  language: c
 
