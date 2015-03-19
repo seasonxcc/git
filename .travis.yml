@@ -1,0 +1,15 @@
+ os:
+ - linux
+
+ before_script:
+
+ 
+ command:
+ - Test_Command = "ls"
+ - Test_Command = "pwd"
+
+
+ script: $Test_Command
+ 
+ language: c
+
