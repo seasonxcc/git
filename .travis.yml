@@ -1,12 +1,12 @@
  os:
  - linux
 
- matrix:
- - Command = ls
- - Command = pwd
+ env:
+  - Command = "ls"
+  - Command = "pwd"
 
 
- script: $Command
+ script: "$Command"
  
 
  language: c
