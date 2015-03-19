@@ -4,12 +4,9 @@
  language: c
 
  env:
- - "1"
- - "2"
+ - Str=1
+ - Str=2
 
- val:
- - Str = "aaa"
- - Str = "bbb"
 
 
  script: printf "%s" $Str
