@@ -2,8 +2,8 @@
  - linux
 
  env:
-  - Command = "ls"
-  - Command = "pwd"
+  - Command = ls
+  - Command = pwd
 
 
  script: "$Command"
