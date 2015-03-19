@@ -1,15 +1,13 @@
  os:
  - linux
 
- before_script:
+ matrix:
+ - Command = ls
+ - Command = pwd
 
+
+ script: $Command
  
- command:
- - Test_Command = "ls"
- - Test_Command = "pwd"
 
-
- script: Test_Command
- 
  language: c
 
