@@ -4,12 +4,12 @@
  language: c
 
  env:
- - Str=1
- - Str=2
+ - TEST_SUITE=1
+ - TEST_SUITE=2
 
 
 
- script: printf "%s" $Str
+ script: "test exec:$TEST_SUITE"
 
 
 
