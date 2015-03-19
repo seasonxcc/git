@@ -7,8 +7,12 @@
  - "1"
  - "2"
 
+ val:
+ - Str = "aaa"
+ - Str = "bbb"
 
- script: printf "%s" "aaaaaa"
+
+ script: printf "%s" $Str
 
 
 
