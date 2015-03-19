@@ -3,10 +3,14 @@
 
  language: c
 
- #env:
- # - ls
- # - pwd
+ env:
+ - Folder = "f1"
+ - Folder = "f2"
 
 
- script: ls
+ script: cd $Folder&&pwd
+
+
+
+
 
