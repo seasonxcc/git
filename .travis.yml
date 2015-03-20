@@ -4,12 +4,18 @@
  language: c
 
  env:
- - TEST_SUITE=1
- - TEST_SUITE=2
+  matrix:
+     - TEST_Folder=f1
+     - TEST_Folder=f2
 
 
 
- script: "test exec:$TEST_SUITE"
+ script: 
+  - cd $TEST_Folder
+  - pwd	
+
+
+# "test exec:$TEST_SUITE"
 
 
 
