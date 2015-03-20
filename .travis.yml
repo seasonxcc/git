@@ -5,14 +5,13 @@
 
  env:
   matrix:
-     - TEST_Folder=f1
-     - TEST_Folder=f2
+     - Str="aaa"
+     - Str="bbb"
 
 
 
  script: 
-  - cd $TEST_Folder
-  - pwd	
+  - printf "%s\n" $Str
 
 
 # "test exec:$TEST_SUITE"
