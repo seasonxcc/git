@@ -6,14 +6,14 @@
 
  env:
   matrix:
-     - Str="aaa"
-     - Str="bbb"
+     - Cmd="ls"
+     - Cmd="pwd"
 
 
 
 
  script: 
-  - printf "%s\n" $Str
+ - $Cmd
 
 
 # "test exec:$TEST_SUITE"
